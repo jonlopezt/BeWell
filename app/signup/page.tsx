@@ -29,7 +29,7 @@ export default function SignUpPage() {
   return (
     <div className="h-full bg-white flex flex-col items-center justify-center p-6 relative">
       {/* Back arrow */}
-      <Link href="/login" className="absolute top-[54px] left-6">
+      <Link href="/login" className="absolute top-4 left-4">
         <svg 
           className="w-6 h-6 text-gray-400 hover:text-gray-600 transition" 
           fill="none" 

@@ -23,7 +23,7 @@ export default function LandingPage() {
   return (
     <div className="h-full bg-white flex flex-col items-center justify-center p-6 relative">
       {/* Back arrow */}
-      <Link href="/" className="absolute top-[54px] left-6 flex items-center gap-2">
+      <Link href="/" className="absolute top-4 left-4 flex items-center gap-2">
         <svg 
           className="w-6 h-6 text-gray-400 hover:text-gray-600 transition" 
           fill="none" 
@@ -71,7 +71,7 @@ export default function LandingPage() {
       {/* Buttons section - pushed to bottom */}
       <div className="w-full pb-8">
         {/* Log in button */}
-        <Link href="/login" className="block mb-3">
+        <Link href="/home" className="block mb-3">
           <button 
             className={`w-full font-bold py-3.5 px-6 rounded-2xl text-base transition cursor-pointer ${
               isFormValid
